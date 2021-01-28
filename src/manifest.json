@@ -1,0 +1,41 @@
+{
+  "lang": "en",
+  "short_name": "hz",
+  "name": "Harsh Zalavadiya",
+  "icons": [
+    {
+      "src": "/assets/images/photo-150.png",
+      "sizes": "150x150",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/assets/images/photo-200.png",
+      "sizes": "200x200",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/assets/images/photo-300.png",
+      "sizes": "300x300",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/assets/images/photo-500.png",
+      "sizes": "500x500",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/assets/images/photo-600.png",
+      "sizes": "600x600",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/assets/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1B1C1F"
+}

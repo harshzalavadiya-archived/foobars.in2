@@ -1,0 +1,28 @@
+---
+title: "Snippets"
+summary: ""
+permalink: "/snippets/index.html"
+layout: layouts/default
+css:
+  - post-list
+---
+
+<h1 class="Heading MarginTop-xxl">
+  <span class="TitleShadow">Snippets</span>
+</h1>
+
+{% set snippets = collections.snippets %}
+
+<section
+  class="PostListWrapper Bullets"
+>
+  {% for item in snippets %}
+  <ul class="PostList">
+    <li>
+      <a class="Link PostList-Link MarginTop-s" href="{{ item.url }}">{{
+        item.data.title
+      }}</a>
+    </li>
+  </ul>
+  {% endfor %}
+</section>

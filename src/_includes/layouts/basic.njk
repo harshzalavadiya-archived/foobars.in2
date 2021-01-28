@@ -1,0 +1,16 @@
+---
+css:
+  - "post"
+  - "prisma"
+---
+
+{% extends 'layouts/base.njk' %} {% block content %}
+<section class="PageHeader MarginTop-xxl">
+  <h1 class="Heading PageHeader--Heading">
+    <span>{{ title }}</span>
+  </h1>
+</section>
+<article class="Article">
+  {{ content | safe }}
+</article>
+{% endblock %}
