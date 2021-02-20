@@ -15,6 +15,7 @@ module.exports = {
     mail: "harsh@foobars.in",
     github: "https://github.com/harshzalavadiya",
     twitter: "https://twitter.com/zhnebula",
-    amazon: "https://www.amazon.in/hz/wishlist/ls/1VNQKCIM5WXZI",
+    redbubble: "https://www.redbubble.com/people/harshzalavadiya/shop",
+    amazon: "https://www.amazon.in/hz/wishlist/ls/1VNQKCIM5WXZI"
   },
 };
