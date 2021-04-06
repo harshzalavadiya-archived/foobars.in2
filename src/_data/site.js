@@ -12,7 +12,7 @@ module.exports = {
   includeServiceWorker: false,
 
   social: {
-    mail: "harsh@foobars.in",
+    mail: "harsh~at~foobars~dot~in",
     github: "https://github.com/harshzalavadiya",
     twitter: "https://twitter.com/zhnebula",
     redbubble: "https://www.redbubble.com/people/harshzalavadiya/shop",
