@@ -28,7 +28,7 @@ cloudflared tunnel run --url localhost:8080 {tunnelName}
 ```
 #### Add DNS entry record in your CF Panel
 
-```txt
+```bash
 CNAME tunnelID.cfargotunnel.com
 ```
 
