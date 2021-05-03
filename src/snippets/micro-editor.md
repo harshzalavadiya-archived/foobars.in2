@@ -15,3 +15,13 @@ mv micro /usr/bin # optional to use micro from anywhere
 ```
 
 > If using over ssh then use -X flag for x11 forwarding and install xclip on both client and server
+
+update `.config/micro/settings.json` to avoid paste glitches
+
+```
+{
+    "autoindent": false,
+    "tabsize": 2,
+    "tabstospaces": true
+}
+```
